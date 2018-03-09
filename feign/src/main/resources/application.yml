@@ -2,9 +2,9 @@ spring:
   application:
     name: spring-cloud-eureka-feign-client
 server:
-  port: 8080
+  port: 8070
 
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8081/eureka
+      defaultZone: http://localhost:8060/eureka
